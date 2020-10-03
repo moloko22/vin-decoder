@@ -1,0 +1,8 @@
+.back_button {
+    text-decoration: underline;
+    cursor: pointer;;
+    background: none;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 30px;
+}

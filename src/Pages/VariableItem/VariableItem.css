@@ -1,0 +1,11 @@
+.variable_item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.variable_item ul {
+    list-style: none;
+    font-size: 19px;
+}

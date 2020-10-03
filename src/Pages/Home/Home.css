@@ -1,0 +1,43 @@
+.home {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home_page_decode_vin {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+}
+.home_page_decode_vin form {
+    width: 100%;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.home_page_decode_vin form input {
+    padding: 5px;
+    margin-left: 10px;
+    width: 50%;
+    min-height: 20px;
+    max-height: 40px;
+}
+.home_page_decode_vin form button {
+    height: 25px;
+    margin: 0 5px;
+}
+.request_message {
+    width: 80%;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+@media (max-width: 1023px) {
+    .home_page_decode_vin {
+        flex-direction: column;
+    }
+    .home_page_decode_vin form {
+        margin-bottom: 50px;
+    }
+}

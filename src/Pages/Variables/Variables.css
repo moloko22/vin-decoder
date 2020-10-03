@@ -1,0 +1,28 @@
+.variables_page {
+    display: flex;
+    flex-direction: column;
+}
+.variables_page ul {
+    list-style: none;
+}
+.variables_page ul li {
+    margin: 12px 6px;
+}
+.variables_page ul li a {
+    text-decoration: none;
+    color: #2F2f2F;
+}
+.variables_page ul li a:hover {
+    text-decoration: underline;
+    opacity: 0.65;
+}
+.variables_page ul li a:active {
+    text-decoration: underline;
+    opacity: 0.45;
+}
+
+@media (max-width: 1023px){
+    .variables_page ul {
+        padding-left: 10px;
+    }
+}

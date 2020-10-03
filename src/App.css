@@ -1,0 +1,9 @@
+.app {
+    font-size: 18px;
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 6px 0 silver;
+    align-items: center;
+}

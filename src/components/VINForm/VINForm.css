@@ -1,0 +1,16 @@
+.VIN_form {
+    position: relative;
+}
+.VIN_form input {
+    outline: none;
+}
+.error_message {
+    position: absolute;
+    top: 35px;
+    left: 50px;
+    color: red;
+    font-size: 15px;
+}
+.error_input {
+    border: 1px solid red;
+}

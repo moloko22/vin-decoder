@@ -1,0 +1,42 @@
+header {
+    margin-top: 25px;
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid silver;
+    margin-bottom: 50px;
+}
+.header_navigation {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.header_navigation ul {
+    width: 50%;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-around;
+}
+.header_navigation ul li a {
+    font-size: 21px;
+    text-decoration: none;
+    color: #2F2f2F;
+}
+
+.header_navigation ul li a:hover {
+    opacity: 0.6;
+    text-decoration: underline;
+}
+
+.header_navigation ul li a:active {
+    opacity: 0.45;
+    color: #4F4F4F;
+    text-decoration: underline;
+}
+
+
+@media (max-width: 1023px) {
+    .header_navigation {
+        width: 100%;
+    }
+}
